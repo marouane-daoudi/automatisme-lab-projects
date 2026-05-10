@@ -78,10 +78,13 @@ tout en assurant la priorité sécurité lors des traversées.
 
 ## Fichiers
 
+## Fichiers
+
 | Fichier | Description |
 |---|---|
-| `docs/traffic_lights.pdf` | Export complet GX Works (ladder + paramètres) |
-| `screenshots/` | Captures du programme en environnement GX Works |
+| [traffic_lights.gxw](traffic_lights.gxw) | Fichier projet GX Works 2/3 |
+| [docs/traffic_lights.pdf](docs/traffic_lights.pdf) | Export complet GX Works (ladder + paramètres) |
+| [screenshots/](screenshots/) | Captures du programme en environnement GX Works |
 
 > 💾 **Fichier GX Works** : `traffic_lights.gxw`  
 > Ouvrir avec GX Works 2 ou GX Works 3 (Mitsubishi Electric).
