@@ -82,6 +82,8 @@ Deux protections critiques sont implémentées :
 | [docs/Parking_Automatique_avec_Barrière_full.pdf](docs/Parking_Automatique_avec_Barrière_full.pdf) | Export complet GX Works |
 | [screenshots/](screenshots/) | Captures du programme GX Works |
 
+> 💾 **Fichier GX Works** : `PARKING.gxw`  
+> Ouvrir avec GX Works 2 ou GX Works 3 (Mitsubishi Electric).
 ---
 
 ## Concepts clés démontrés
