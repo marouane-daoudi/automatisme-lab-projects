@@ -38,20 +38,17 @@ pour hiérarchiser les conditions de sécurité (marche machine + porte fermée)
 
 ## Architecture MC/MCR imbriquée
 
-Le programme utilise **deux niveaux hiérarchiques MC/MCR** :
-X000 → MC N0 M100  (Niveau 0 : machine ON/OFF)
-│
-└── X001 → MC N1 M200  (Niveau 1 : porte fermée)
-│
-└── [Séquence complète de lavage]
-│
-MCR N1
-│
-MCR N0
+Le programme utilise deux niveaux hiérarchiques MC/MCR garantissant
+que toute la séquence s'arrête immédiatement si la machine est éteinte
+(X000) ou si la porte est ouverte (X001), sans conditions supplémentaires
+sur chaque rung.
 
-Cette structure garantit que **toute la séquence s'arrête immédiatement**
-si la machine est éteinte (X000) ou si la porte est ouverte (X001),
-sans nécessiter de conditions supplémentaires sur chaque rung.
+- **Niveau 0** — `MC N0 M100` : contrôlé par X000 (ON/OFF machine)
+- **Niveau 1** — `MC N1 M200` : contrôlé par X001 (porte fermée), imbriqué dans N0
+- **Fermeture** — `MCR N1` puis `MCR N0` : retour dans l'ordre inverse obligatoire
+
+Tant que X000 est OFF ou X001 est ouvert, aucune sortie du bloc ne peut
+être activée — c'est la base de la sécurité machine en environnement industriel.
 
 ---
 
