@@ -49,9 +49,9 @@ compteur **C0** pour limiter les impulsions, et des instructions
 ![Armement](screenshots/arming_counter.png)
 
 ### Blocs MC/MCR + détection (rungs 13-65)
-![Détection1](screenshots/detection_MC_MCR1.png)
-![Détection2](screenshots/detection_MC_MCR2.png)
-![Détection3](screenshots/detection_MC_MCR3.png)
+![Détection1](screenshots/detection_MC_MCR_1.png)
+![Détection2](screenshots/detection_MC_MCR_2.png)
+![Détection3](screenshots/detection_MC_MCR_3.png)
 
 ---
 
