@@ -89,6 +89,8 @@ Tant que X000 est OFF ou X001 est ouvert, aucune sortie du bloc ne peut
 | [docs/Machine_a_laver.pdf](docs/Machine_a_laver.pdf) | Export complet GX Works |
 | [screenshots/](screenshots/) | Captures du programme GX Works |
 
+> 💾 **Fichier GX Works** : `Machine_a_laver.gxw`  
+> Ouvrir avec GX Works 2 ou GX Works 3 (Mitsubishi Electric).
 ---
 
 ## Concepts clés démontrés
