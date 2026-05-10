@@ -79,7 +79,7 @@ Deux protections critiques sont implémentées :
 | Fichier | Description |
 |---|---|
 | [PARKING.gxw](PARKING.gxw) | Fichier projet GX Works 2/3 |
-| [docs/car_parking_full.pdf](docs/car_parking_full.pdf) | Export complet GX Works |
+| [docs/Parking_Automatique_avec_Barrière_full.pdf](docs/Parking_Automatique_avec_Barrière_full.pdf) | Export complet GX Works |
 | [screenshots/](screenshots/) | Captures du programme GX Works |
 
 ---
