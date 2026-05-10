@@ -63,6 +63,8 @@ compteur **C0** pour limiter les impulsions, et des instructions
 | [docs/burglar_alarm_full.pdf](docs/burglar_alarm_full.pdf) | Export complet GX Works |
 | [screenshots/](screenshots/) | Captures du programme GX Works |
 
+> 💾 **Fichier GX Works** : `burglar_alarm.gxw`  
+> Ouvrir avec GX Works 2 ou GX Works 3 (Mitsubishi Electric).
 ---
 
 ## Concepts clés démontrés
