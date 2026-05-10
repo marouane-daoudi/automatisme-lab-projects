@@ -66,13 +66,13 @@ tout en assurant la priorité sécurité lors des traversées.
 ![Ladder complet](screenshots/ladder_full.png)
 
 ### Séquence des timers (T0 → T3)
-![Timers](screenshots/timers_sequence.png)
+![Timers](screenshots/timers_sequence.PNG)
 
 ### Interruption piéton MC/MCR
-![MC MCR](screenshots/pedestrian_MC_MCR.png)
+![MC MCR](screenshots/pedestrian_MC_MCR.PNG)
 
 ### Logique des sorties (Y000 → Y005)
-![Sorties](screenshots/outputs_logic.png)
+![Sorties](screenshots/outputs_logic.PNG)
 
 ---
 
