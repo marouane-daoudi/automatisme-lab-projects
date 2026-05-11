@@ -76,7 +76,6 @@ tout en assurant la priorité sécurité lors des traversées.
 
 ---
 
-## Fichiers
 
 ## Fichiers
 
